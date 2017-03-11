@@ -1,4 +1,4 @@
-
+goto compleat
 cls
 git config -l 
 echo Press ENTER to execute the command
@@ -24,7 +24,8 @@ git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe
 git config -l 
 echo Press ENTER to execute the command
 Rem Pause >nul
+:compleat
 
 
-git remote add origin https://github.com/sid1980/git-lesson.git
+git remote add origin https://github.com/sid1980/TextBlog.git
 git config -l
